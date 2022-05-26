@@ -16,9 +16,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         edt1=(EditText)findViewById(R.id.edt1);
         edt2=(EditText)findViewById(R.id.edt2);
+
+
         tv_res=(TextView)findViewById(R.id.tv_res);
+
+
         pb_sumar=(Button)findViewById(R.id.pb_sumar);
         pb_restar =(Button)findViewById(R.id.pb_restar);
         pb_multiplicar=(Button)findViewById(R.id.pb_multiplicar);
