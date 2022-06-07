@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="187dp"
+        android:layout_height="185dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64">
+
+        <RadioButton
+            android:id="@+id/rb_suma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/suma"
+            android:text="@string/suma" />
+
+        <RadioButton
+            android:id="@+id/rb_resta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/resta"
+            android:text="@string/resta" />
+
+        <RadioButton
+            android:id="@+id/rb_multiplicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/multiplicacion"
+            android:text="@string/multiplicacion" />
+
+        <RadioButton
+            android:id="@+id/rb_division"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/division"
+            android:text="@string/division" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_res"
+        android:layout_width="137dp"
+        android:layout_height="82dp"
+        android:text="@string/res"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <Button
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ejecutar"
+        android:text="@string/ejecutar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="149dp"
+        android:layout_height="95dp"
+        android:ems="10"
+        android:hint="@string/edt1"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="149dp"
+        android:layout_height="95dp"
+        android:ems="10"
+        android:hint="@string/edt1"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

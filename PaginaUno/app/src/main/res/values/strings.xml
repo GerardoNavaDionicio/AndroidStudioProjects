@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="buton">Ejecutar</string>
+
+    <string name="Pregunta1">1.- Un Framework es:</string>
+    <string name="op1.1">Un Frame con Work</string>
+    <string name="Op1.2">Una plantilla</string>
+    <string name="Op1.3">Algo crazy</string>
+    <string name="Op1.4">no sé</string>
+
+
+    <string name="Pregunta2">2.- Un  SDK es:</string>
+    <string name="op2.1">Un conjunto de Herramientas</string>
+    <string name="op2.2">Un lenguaje de programacion</string>
+    <string name="Op2.3">Hardware</string>
+    <string name="Op2.4">Somos Diez Krikosos</string>
+
+    <string name="Pregunta3">3.-Una  Biblioteca en programación es:</string>
+    <string name="Op3.1">Qur flojera leer</string>
+    <string name="Op3.2">Un lugar donde hay libros</string>
+    <string name="Op3.3">Un atajo</string>
+    <string name="Op3.4">Un conjunto de clases</string>
+
+    <string name="Pregunta4">4.-Una API es:</string>
+    <string name="Op4.1">Un modulo de Software que interactua con otro</string>
+    <string name="Op4.2">Aveces Piendo inexisir</string>
+    <string name="Op4.3">Un herramienta de Hardware</string>
+    <string name="Op4.4">Un moludo de I.A.</string>
+
+
+    <string name="Pregunta5">5.-La clase R de java, en Android Studio se utiliza para:</string>
+    <string name="Op5.1">Alamacena ID de recursos</string>
+    <string name="Op5.2">Recicla, reusa</string>
+    <string name="Op5.3">R de Rápido</string>
+    <string name="Op5.4">Raka Taka Taka</string>
+
+    <string name="Pregunta6">6.-Android es:</string>
+    <string name="Op6.1">nos has salvado, estamos agradecidos</string>
+    <string name="Op6.2">EL maricanito de la cumbia</string>
+    <string name="Op6.3">un enemiko de Goku</string>
+    <string name="Op6.4">Un S.O. de Móviles</string>
+
+    <string name="Pregunta7">7.-Android estudio es:</string>
+    <string name="Op7.1">Un estudio de androides</string>
+    <string name="Op7.2">IDE para desarrollar Apps Android</string>
+    <string name="Op7.3">Un androide con estudios</string>
+    <string name="Op7.4">una Escuela de marte</string>
+
+    <string name="Pregunta8">8.-Los lenguajes con los que se puede desarrollar en Android Studio son:</string>
+    <string name="Op8.1">Java y C++</string>
+    <string name="Op8.2">Python y kotlin</string>
+    <string name="Op8.3">Kotlin y java</string>
+    <string name="Op8.4">Chelan y Python</string>
+
+    <string name="Pregunta9">9.-Se le conoce como desarrollo móvil nativo.</string>
+    <string name="Op9.1">una pala</string>
+    <string name="Op9.2">Derechos humanos</string>
+    <string name="Op9.3">Desarrollar apps en el lenhuaje en que trabaja el móvil</string>
+    <string name="Op9.4">un Nativo con Celular</string>
+
+    <string name="Pregunta10">10.-En la siguiente línea de código n1 = (EditText) findViewById(R.id.ednum1); sirve para:</string>
+    <string name="Op10.1">Find Find Find</string>
+    <string name="Op10.2">Encontrar dinero</string>
+    <string name="Op10.3">Descrube la cura al Cáncer</string>
+    <string name="Op10.4">¿Enlazar un recurso de la interfaz con el código</string>
+
+    <string name="Pregunta11">11.-Las ventajas de desarrollo nativo son:</string>
+    <string name="Op11.1">Mayor Rendimiento</string>
+    <string name="Op11.2">Reduccion de errores</string>
+    <string name="Op11.3">Mas paga</string>
+    <string name="Op11.4">Función en Offline</string>
+
+    <string name="Pregunta12">12.-La diferencia entre APPS hibridas y multiplataforma es:</string>
+    <string name="op12.1">El nombre</string>
+    <string name="Op12.2">EL pago</string>
+    <string name="Op12.3">EL desarrollo </string>
+    <string name="Op12.4">Los dispositivos en que se ejecutan</string>
+
+    <string name="Pregunta13">13.-El modificador de acceso  public indica:</string>
+    <string name="Op13.1">Que es un objeto de tipo público</string>
+    <string name="Op13.2">Que le pertenece al gobierno</string>
+    <string name="Op13.3">Del pueblo y para el pueblo</string>
+    <string name="Op13.4">Es visible para cualquier clase</string>
+
+    <string name="Pregunta14">14.-El modificador de acceso  protected indica: </string>
+    <string name="Op14.1">Que solo puede usarse en la mismca clase que fue declarado</string>
+    <string name="Op14.2">Que es protegido jsjsj</string>
+    <string name="Op14.3">Bloqueo, Bloqueo, Bloqueo</string>
+    <string name="Op14.4">Dios conmigo, quién contra mi?</string>
+
+    <string name="Pregunta15">15.-El modificador de acceso  private indica: </string>
+    <string name="Op15.1">es de Whitexican</string>
+    <string name="Op15.2">que hay que pagar 10 pesos</string>
+    <string name="Op15.3">es gratis pero no es gratis</string>
+    <string name="Op15.4">Solo su clase padre la puede usar</string>
+
+    <string name="Pregunta16">16.-El activiy es:</string>
+    <string name="Op16.1">un yogurth bien rico</string>
+    <string name="Op16.2">una actividade de la Uni</string>
+    <string name="Op16.3">Corrsponde a la pantalla de nuestra app</string>
+    <string name="Op16.4">Educacion física</string>
+
+    <string name="Pregunta17">17.-¿Cuál es la forma correcta de declarar e inicializar un array en java:</string>
+    <string name="Op17.1">Abracadabra</string>
+    <string name="OpOp17.2">Generate new arreglo</string>
+    <string name="OpOp17.3">hola, quiero un arreglo</string>
+    <string name="OpOp17.4"> tipo_dato nombre_array[];
+        nombre_array = new tipo_dato[tamaño];</string>
+
+    <string name="Pregunta18">18.-El Spinner es:</string>
+    <string name="Op18.1">Una lista del súper</string>
+    <string name="Op18.2">Una lista desplegable</string>
+    <string name="Op18.3">Un juego popular</string>
+    <string name="Op18.4">un francotirador</string>
+
+    <string name="Pregunta19">19.-¿Un arreglo en java se recorre de la siguiente forma:</string>
+    <string name="Op19.1">1</string>
+    <string name="Op19.2">9</string>
+    <string name="Op19.3">7</string>
+    <string name="Op19.4">for (String arreglo : arrelglo) {System.out.println(arreglo);
+}</string>
+
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Activity1</string>
+
+    <string name="Pregunta1">¿Cuál es la mascota de la Universidad?</string>
+    <string name="op1">Jack</string>
+    <string name="Op2">Juancho</string>
+    <string name="Op3">Cesar</string>
+    <string name="Op4">Toño</string>
+    <string name="buton">Ejecutar</string>
+
+</resources>

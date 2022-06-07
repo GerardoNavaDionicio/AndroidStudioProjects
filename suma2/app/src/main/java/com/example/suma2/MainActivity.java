@@ -21,9 +21,7 @@ public class MainActivity extends AppCompatActivity {
         edt1=(EditText)findViewById(R.id.edt1);
         edt2=(EditText)findViewById(R.id.edt2);
 
-
         tv_res=(TextView)findViewById(R.id.tv_res);
-
 
         pb_sumar=(Button)findViewById(R.id.pb_sumar);
         pb_restar =(Button)findViewById(R.id.pb_restar);
@@ -63,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     }
     public int suma(int a, int b)
     {
@@ -80,6 +79,11 @@ public class MainActivity extends AppCompatActivity {
     {
         return a/b;
     }
+
+
+
+
+
 
 
 }

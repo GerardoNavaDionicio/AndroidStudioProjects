@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_main.xml" value="0.16530797101449277" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_cinco.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_cuatro.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_diez.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_dos.xml" value="0.21" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_nueve.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_ocho.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_seis.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_siete.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_tres.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

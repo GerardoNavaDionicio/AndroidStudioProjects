@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">calculadoraCB</string>
+    <string name="suma">suma2</string>
+    <string name="resta">resta</string>
+    <string name="multiplicacion">multiplicacion</string>
+    <string name="division">division</string>
+    <string name="edt1">introduce un numero </string>
+    <string name="ejecutar">ejecutar</string>
+    <string name="res"> </string>
+
+
+</resources>
