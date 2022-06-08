@@ -47,10 +47,10 @@
     <string name="Op7.4">una Escuela de marte</string>
 
     <string name="Pregunta8">8.-Los lenguajes con los que se puede desarrollar en Android Studio son:</string>
-    <string name="Op8.1">Java y C++</string>
-    <string name="Op8.2">Python y kotlin</string>
-    <string name="Op8.3">Kotlin y java</string>
-    <string name="Op8.4">Chelan y Python</string>
+    <string name="Op8.1">C++</string>
+    <string name="Op8.2">kotlin</string>
+    <string name="Op8.3">JavaScript</string>
+    <string name="Op8.4">Java</string>
 
     <string name="Pregunta9">9.-Se le conoce como desarrollo móvil nativo.</string>
     <string name="Op9.1">una pala</string>
@@ -62,7 +62,7 @@
     <string name="Op10.1">Find Find Find</string>
     <string name="Op10.2">Encontrar dinero</string>
     <string name="Op10.3">Descrube la cura al Cáncer</string>
-    <string name="Op10.4">¿Enlazar un recurso de la interfaz con el código</string>
+    <string name="Op10.4">Enlazar un recurso de la interfaz con el código</string>
 
     <string name="Pregunta11">11.-Las ventajas de desarrollo nativo son:</string>
     <string name="Op11.1">Mayor Rendimiento</string>
@@ -73,7 +73,7 @@
     <string name="Pregunta12">12.-La diferencia entre APPS hibridas y multiplataforma es:</string>
     <string name="op12.1">El nombre</string>
     <string name="Op12.2">EL pago</string>
-    <string name="Op12.3">EL desarrollo </string>
+    <string name="Op12.3">EL Desarrollo</string>
     <string name="Op12.4">Los dispositivos en que se ejecutan</string>
 
     <string name="Pregunta13">13.-El modificador de acceso  public indica:</string>
@@ -102,9 +102,9 @@
 
     <string name="Pregunta17">17.-¿Cuál es la forma correcta de declarar e inicializar un array en java:</string>
     <string name="Op17.1">Abracadabra</string>
-    <string name="OpOp17.2">Generate new arreglo</string>
-    <string name="OpOp17.3">hola, quiero un arreglo</string>
-    <string name="OpOp17.4"> tipo_dato nombre_array[];
+    <string name="Op17.2">Generate new arreglo</string>
+    <string name="Op17.3">hola, quiero un arreglo</string>
+    <string name="Op17.4"> tipo_dato nombre_array[];
         nombre_array = new tipo_dato[tamaño];</string>
 
     <string name="Pregunta18">18.-El Spinner es:</string>
@@ -114,11 +114,10 @@
     <string name="Op18.4">un francotirador</string>
 
     <string name="Pregunta19">19.-¿Un arreglo en java se recorre de la siguiente forma:</string>
-    <string name="Op19.1">1</string>
-    <string name="Op19.2">9</string>
-    <string name="Op19.3">7</string>
-    <string name="Op19.4">for (String arreglo : arrelglo) {System.out.println(arreglo);
-}</string>
+    <string name="Op19.1">Recorrer:Arreglo</string>
+    <string name="Op19.2">For i=0;i++,arrgello++</string>
+    <string name="Op19.3">Echando carreras jsjs</string>
+    <string name="Op19.4">for (String arreglo : arrelglo) {System.out.println(arreglo);}</string>
 
 
 </resources>

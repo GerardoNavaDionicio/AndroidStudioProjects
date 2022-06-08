@@ -12,7 +12,7 @@
         android:layout_width="236dp"
         android:layout_height="91dp"
         android:backgroundTint="@color/purple_500"
-        android:onClick="@string/Pregunta5"
+        android:onClick="preguntaOnce"
         android:text="@string/buton"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"

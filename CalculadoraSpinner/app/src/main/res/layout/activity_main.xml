@@ -36,14 +36,14 @@
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="301dp"
-        android:layout_height="96dp"
+        android:layout_width="346dp"
+        android:layout_height="161dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.345"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.338" />
+        app:layout_constraintVertical_bias="0.4" />
 
     <Button
         android:id="@+id/pb"
@@ -52,16 +52,16 @@
         android:text="@string/ejecutar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.605" />
+        app:layout_constraintVertical_bias="0.702" />
 
     <TextView
         android:id="@+id/tv_res"
         android:layout_width="235dp"
         android:layout_height="80dp"
         android:text="@string/res"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.572"

@@ -14,6 +14,33 @@
         android:theme="@style/Theme.PaginaUno"
         tools:targetApi="31">
         <activity
+            android:name=".PaginaDiecinueve"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaDieciocho"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaDiecisiete"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaDiesiceis"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaQuince"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaCatorce"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaTrece"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaDoce"
+            android:exported="false" />
+        <activity
+            android:name=".PaginaOnce"
+            android:exported="false" />
+        <activity
             android:name=".PaginaDiez"
             android:exported="false" />
         <activity
