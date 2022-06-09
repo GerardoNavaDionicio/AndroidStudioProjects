@@ -11,13 +11,15 @@ import android.widget.Toast;
 
 
 public class PaginaDos extends AppCompatActivity {
-    Button pb;
+    Button pb,pb1,pb0;
     RadioButton op1,op2,op3,op4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pagina_dos);
         pb = (Button) findViewById(R.id.pb);
+        pb1 = (Button) findViewById(R.id.pb1);
+        pb0 = (Button) findViewById(R.id.pb0);
         op1=(RadioButton)findViewById(R.id.op1);
         op2=(RadioButton)findViewById(R.id.op2);
         op3=(RadioButton)findViewById(R.id.op3);
@@ -50,5 +52,15 @@ public class PaginaDos extends AppCompatActivity {
             toast.show();
         }
 
+    }
+    public void Siguiente(View view)
+    {
+        Intent dos = new Intent(this,PaginaTres.class);
+        startActivity(dos);
+    }
+    public void Volver(View view)
+    {
+        Intent dos = new Intent(this,MainActivity.class);
+        startActivity(dos);
     }
 }

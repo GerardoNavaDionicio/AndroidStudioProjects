@@ -20,30 +20,13 @@ public class MainActivity extends AppCompatActivity {
         String[] dias={"LUNES","MARTES"};
         String[] paises={"MÉXICO","BRASIL"};
 
+        ArrayAdapter<String> dia = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, dias);
+        ArrayAdapter<String> pais = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, paises);
 
-        //ArrayAdapter<String> adapter_dias=new ArrayAdapter <String> (this, android.R.layout.simple_spinner_item,dias);
-        //sp_dias.setAdapter(adapter_dias);
+        sp1.setAdapter(dia);
+        sp1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
-        //ArrayAdapter<String> adapter_paises=new ArrayAdapter <String> (this, android.R.layout.simple_spinner_item,paises);
-        //sp_dias.setAdapter(adapter_paises);
-
-        sp_dias.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String dias;
-                sp_dias.getSelectedItem().toString();
-                Toast toast = Toast.makeText(getApplicationContext(),"eL DIA ES"+sp_dias,Toast.LENGTH_SHORT);
-
-            }
-            @Override
-            public void onNothingSelected {
-                String dias;
-                sp_dias.getSelectedItem().toString();
-                Toast toast = Toast.makeText(getApplicationContext(),"eL DIA ES"+sp_dias,Toast.LENGTH_SHORT);
-
-            }
-        });
-
+        }
     }
 
 }

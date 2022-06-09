@@ -2,11 +2,18 @@
     <string name="app_name">Formulario</string>
     <string name="buton">Ejecutar</string>
 
+    <string name="res2">Elige 2</string>
+    <string name="res3">Elige 3</string>
+
+    <string name="next">SIGUIENTE</string>
+    <string name="volver">ATRAS</string>
+
+
     <string name="Pregunta1">1.- Un Framework es:</string>
     <string name="op1.1">Un Frame con Work</string>
     <string name="Op1.2">Una plantilla</string>
     <string name="Op1.3">Algo crazy</string>
-    <string name="Op1.4">no sé</string>
+    <string name="Op1.4">Una Estructura Base</string>
 
 
     <string name="Pregunta2">2.- Un  SDK es:</string>
@@ -18,7 +25,7 @@
     <string name="Pregunta3">3.-Una  Biblioteca en programación es:</string>
     <string name="Op3.1">Qur flojera leer</string>
     <string name="Op3.2">Un lugar donde hay libros</string>
-    <string name="Op3.3">Un atajo</string>
+    <string name="Op3.3">Un Conjunto de Funciones</string>
     <string name="Op3.4">Un conjunto de clases</string>
 
     <string name="Pregunta4">4.-Una API es:</string>
@@ -35,13 +42,13 @@
     <string name="Op5.4">Raka Taka Taka</string>
 
     <string name="Pregunta6">6.-Android es:</string>
-    <string name="Op6.1">nos has salvado, estamos agradecidos</string>
+    <string name="Op6.1">Un S.O. de  Autos</string>
     <string name="Op6.2">EL maricanito de la cumbia</string>
-    <string name="Op6.3">un enemiko de Goku</string>
-    <string name="Op6.4">Un S.O. de Móviles</string>
+    <string name="Op6.3">Un Sistema Operativo</string>
+    <string name="Op6.4">Un S.O. de  Dispositivos Móviles</string>
 
     <string name="Pregunta7">7.-Android estudio es:</string>
-    <string name="Op7.1">Un estudio de androides</string>
+    <string name="Op7.1">Entorno de Desarrollo Integrado</string>
     <string name="Op7.2">IDE para desarrollar Apps Android</string>
     <string name="Op7.3">Un androide con estudios</string>
     <string name="Op7.4">una Escuela de marte</string>
@@ -118,6 +125,8 @@
     <string name="Op19.2">For i=0;i++,arrgello++</string>
     <string name="Op19.3">Echando carreras jsjs</string>
     <string name="Op19.4">for (String arreglo : arrelglo) {System.out.println(arreglo);}</string>
+
+    <string name="Pregunta20">20.-Elije el nombre de la Mascota de la Uni</string>
 
 
 </resources>

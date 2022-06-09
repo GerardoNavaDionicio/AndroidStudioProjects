@@ -14,6 +14,9 @@
         android:theme="@style/Theme.PaginaUno"
         tools:targetApi="31">
         <activity
+            android:name=".PaginaVeinte"
+            android:exported="false" />
+        <activity
             android:name=".PaginaDiecinueve"
             android:exported="false" />
         <activity

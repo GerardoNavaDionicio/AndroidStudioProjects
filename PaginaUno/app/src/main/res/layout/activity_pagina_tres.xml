@@ -7,49 +7,38 @@
     android:onClick="preguntaCuatro"
     tools:context=".PaginaTres">
 
-    <RadioGroup
-        android:layout_width="344dp"
-        android:layout_height="256dp"
+    <Button
+        android:id="@+id/pb21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/siguiente"
+        android:onClick="Siguiente"
+        android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.462">
+        app:layout_constraintVertical_bias="0.976" />
 
-        <RadioButton
-            android:id="@+id/op1"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:text="@string/Op3.1"
-            android:textSize="20sp" />
-
-        <RadioButton
-            android:id="@+id/op2"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:text="@string/Op3.2"
-            android:textSize="20sp" />
-
-        <RadioButton
-            android:id="@+id/op3"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:text="@string/Op3.3"
-            android:textSize="20sp" />
-
-        <RadioButton
-            android:id="@+id/op4"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:text="@string/Op3.4"
-            android:textSize="20sp" />
-    </RadioGroup>
+    <Button
+        android:id="@+id/pb22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/regresar"
+        android:onClick="Volver"
+        android:text="@string/volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="349dp"
-        android:layout_height="100dp"
+        android:layout_width="351dp"
+        android:layout_height="87dp"
         android:text="@string/Pregunta3"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,6 +46,71 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.076" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="223dp"
+        android:layout_height="37dp"
+        android:text="@string/res2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <CheckBox
+        android:id="@+id/op1"
+        android:layout_width="308dp"
+        android:layout_height="78dp"
+        android:text="@string/Op3.1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281" />
+
+    <CheckBox
+        android:id="@+id/op2"
+        android:layout_width="308dp"
+        android:layout_height="78dp"
+        android:text="@string/Op3.2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.433" />
+
+    <CheckBox
+        android:id="@+id/op3"
+        android:layout_width="308dp"
+        android:layout_height="78dp"
+        android:text="@string/Op3.3"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572" />
+
+    <CheckBox
+        android:id="@+id/op4"
+        android:layout_width="308dp"
+        android:layout_height="78dp"
+        android:text="@string/Op3.4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
 
     <Button
         android:id="@+id/pb2"

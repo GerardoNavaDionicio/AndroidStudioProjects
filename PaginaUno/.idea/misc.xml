@@ -3,7 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_main.xml" value="0.16530797101449277" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_catorce.xml" value="0.22" />
         <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_cinco.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_cuatro.xml" value="0.20416666666666666" />
@@ -11,17 +11,18 @@
         <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_dieciocho.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_diecisiete.xml" value="0.18" />
         <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_diesiceis.xml" value="0.2" />
-        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_diez.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_diez.xml" value="0.25" />
         <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_doce.xml" value="0.22" />
         <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_dos.xml" value="0.21" />
-        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_nueve.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_nueve.xml" value="0.33" />
         <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_ocho.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_once.xml" value="0.22" />
         <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_quince.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_seis.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_siete.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_trece.xml" value="0.2" />
-        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_tres.xml" value="0.2" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_tres.xml" value="0.75" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/PaginaUno/app/src/main/res/layout/activity_pagina_veinte.xml" value="0.25" />
       </map>
     </option>
   </component>

@@ -7,11 +7,25 @@
     tools:context=".PaginaDiecinueve">
 
     <Button
+        android:id="@+id/pb53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/regresar"
+        android:onClick="Volver"
+        android:text="@string/volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
         android:id="@+id/pb18"
         android:layout_width="236dp"
         android:layout_height="91dp"
         android:backgroundTint="@color/purple_500"
-        android:onClick="preguntaDos"
+        android:onClick="preguntaUno"
         android:text="@string/buton"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"

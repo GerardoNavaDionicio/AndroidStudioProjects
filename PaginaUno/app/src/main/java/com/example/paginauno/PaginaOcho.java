@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class PaginaOcho extends AppCompatActivity {
-    Button pb;
+    Button pb,pb1,pb0;
     CheckBox op1,op2,op3,op4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,8 @@ public class PaginaOcho extends AppCompatActivity {
         op2=(CheckBox) findViewById(R.id.op2);
         op3=(CheckBox) findViewById(R.id.op3);
         op4=(CheckBox) findViewById(R.id.op4);
+        pb1 = (Button) findViewById(R.id.pb1);
+        pb0 = (Button) findViewById(R.id.pb0);
     }
     //Metodo para pasar Activity
     public void preguntaNueve(View view)
@@ -46,5 +48,15 @@ public class PaginaOcho extends AppCompatActivity {
             toast.setView(i);
             toast.show();
         }
+    }
+    public void Siguiente(View view)
+    {
+        Intent dos = new Intent(this,PaginaNueve.class);
+        startActivity(dos);
+    }
+    public void Volver(View view)
+    {
+        Intent dos = new Intent(this,PaginaSiete.class);
+        startActivity(dos);
     }
 }
