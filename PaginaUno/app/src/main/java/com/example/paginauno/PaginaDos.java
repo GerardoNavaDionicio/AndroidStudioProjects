@@ -36,11 +36,8 @@ public class PaginaDos extends AppCompatActivity {
             toast.setDuration(Toast.LENGTH_SHORT);
             toast.setView(i);
             toast.show();
-
-
             Intent dos = new Intent(this,PaginaTres.class);
             startActivity(dos);
-
         }
         else
         {

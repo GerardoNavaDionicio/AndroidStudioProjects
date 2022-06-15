@@ -36,7 +36,7 @@ public class PaginaTres extends AppCompatActivity {
     }
     public void preguntaCuatro(View view)
     {
-        if ((op3.isChecked())&&op4.isChecked())
+        if ((op3.isChecked())&&op4.isChecked() && op1.isChecked()==false && op2.isChecked()==false)
         {
             ImageView i=new ImageView(getApplicationContext());
             i.setImageResource(R.drawable.si);

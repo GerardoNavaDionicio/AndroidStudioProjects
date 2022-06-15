@@ -27,7 +27,7 @@ public class PaginaOnce extends AppCompatActivity {
     //Metodo para pasar Activity
     public void preguntaDoce(View view)
     {
-        if ((op1.isChecked())&&op2.isChecked())
+        if ((op1.isChecked())&&op2.isChecked() && op3.isChecked()==false && op4.isChecked()==false)
         {
             ImageView i=new ImageView(getApplicationContext());
             i.setImageResource(R.drawable.si);

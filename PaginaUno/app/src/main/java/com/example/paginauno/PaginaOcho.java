@@ -27,7 +27,7 @@ public class PaginaOcho extends AppCompatActivity {
     //Metodo para pasar Activity
     public void preguntaNueve(View view)
     {
-        if ((op2.isChecked())&&op4.isChecked())
+        if ((op2.isChecked())&&op4.isChecked()&& op1.isChecked()==false && op3.isChecked()==false)
         {
             ImageView i=new ImageView(getApplicationContext());
             i.setImageResource(R.drawable.si);

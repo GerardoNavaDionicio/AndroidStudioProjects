@@ -1,19 +1,21 @@
 <resources>
-    <string name="app_name">Formulario</string>
-    <string name="buton">Ejecutar</string>
-
-    <string name="res2">Elige 2</string>
-    <string name="res3">Elige 3</string>
-
-    <string name="next">SIGUIENTE</string>
-    <string name="volver">ATRAS</string>
+    <string name="app_name">Formulario</string><!-- Nombre de la App-->
 
 
-    <string name="Pregunta1">1.- Un Framework es:</string>
-    <string name="op1.1">Un Frame con Work</string>
-    <string name="Op1.2">Una plantilla</string>
-    <string name="Op1.3">Algo crazy</string>
-    <string name="Op1.4">Una Estructura Base</string>
+    <string name="buton">Ejecutar</string> <!--Botón que valida la respuesta y determina si está bien o mal-->
+
+    <string name="res2">Elige 2</string><!-- indica cuantas respuestas elegir-->
+    <string name="res3">Elige 3</string><!-- indica cuantas respuestas elegir    -->
+
+    <string name="next">SIGUIENTE</string><!--Botón para pasar a la siguiente pregunta sin válidar-->
+    <string name="volver">ATRAS</string><!-- Botón para regresar a la anterior pregunta sin válidar-->
+
+
+    <string name="Pregunta1">1.- Un Framework es:</string><!-- Pregunta -->
+    <string name="op1.1">Un Frame con Work</string><!--opcion1-->
+    <string name="Op1.2">Una plantilla</string><!-- opcion 2-->
+    <string name="Op1.3">Algo crazy</string><!--opcion 3-->
+    <string name="Op1.4">Una Estructura Base</string><!-- opcion 4-->
 
 
     <string name="Pregunta2">2.- Un  SDK es:</string>

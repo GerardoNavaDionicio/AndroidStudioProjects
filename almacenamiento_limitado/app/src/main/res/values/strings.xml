@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">almacenamiento_limitado</string>
+
+    <string name="bt1">GUARADAR</string>
+    <string name="bt2">BUSCAR</string>
+    <string name="NOM">INGRESE NOMBRE</string>
+
+    <string name="email">CORREO</string>
+    <string name="cel">NÚMERO TELEFÓNICO</string>
+
+</resources>

@@ -13,8 +13,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     Button pb,pb1,pb0;
     CheckBox op1,op2,op3,op4;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     //Metodo para pasar Activity
     public void preguntaDos(View view)
     {
-        if ((op2.isChecked())  &&  op4.isChecked())
+        if ((op2.isChecked())  &&  op4.isChecked() && op1.isChecked()==false && op3.isChecked()==false)
         {
             ImageView i=new ImageView(getApplicationContext());
             i.setImageResource(R.drawable.si);
@@ -38,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
             toast.setDuration(Toast.LENGTH_SHORT);
             toast.setView(i);
             toast.show();
-
             Intent dos = new Intent(this,PaginaDos.class);
             startActivity(dos);
         }
