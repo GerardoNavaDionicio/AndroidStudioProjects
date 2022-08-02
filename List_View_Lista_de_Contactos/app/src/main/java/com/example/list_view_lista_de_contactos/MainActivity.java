@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     ListView lista;
+    int duration;
     String[][] datos = {
             {"Nore", "2214201231", "nore.beatriz@uppuebla.edu.mx", "22"},
             {"Luis", "1234567890", "Luis.Chido@uppuebla.edu.mx", "21"},
@@ -29,6 +30,22 @@ public class MainActivity extends AppCompatActivity {
         lista = (ListView) findViewById(R.id.lvLista);
 
         lista.setAdapter(new Adaptador(this, datos, datosImg));
+
+        lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+                Toast.makeText(MainActivity.this,"Hola Soy:  "+datos[i][0], Toast.LENGTH_SHORT).show();
+
+            }
+        });
     }
+
+
+
+
+
+
+
 
 }

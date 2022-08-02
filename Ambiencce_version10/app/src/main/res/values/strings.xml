@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ambiencce_version1.0</string>
+
+    <string name="nom_emple">Nombre</string>
+    <string name="gen_emple">Género</string>
+    <string name="pues_emple">Puesto</string>
+    <string name="edad_emple">Edad</string>
+    <string name="id_emple">ID</string>
+
+    <string name="pb_buscar">Buscar</string>
+    <string name="pb_registrar">Registrar</string>
+
+
+</resources>

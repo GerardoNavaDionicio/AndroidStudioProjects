@@ -15,6 +15,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     ListView lt1;
+    float dura;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,9 +35,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id)
             {
-                int duration=1;
+                dura=1;
 
                 Toast.makeText(MainActivity.this, nombres.get(position), Toast.LENGTH_SHORT).show();
+
             }
         });
     }

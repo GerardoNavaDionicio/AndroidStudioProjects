@@ -44,7 +44,11 @@ public class Adaptador extends BaseAdapter {
         telefono.setText("Telefono:     " + datos[i][1]);
         correo.setText("Correo:     " + datos[i][2]);
         imagen.setImageResource(datosImg[i]);
-        
+
+
+
+
+
 
         return vista;
     }
