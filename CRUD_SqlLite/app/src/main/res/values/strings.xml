@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CRUD_SqlLite</string>
+
+    <string name="cod">Codigo del producto</string>
+    <string name="des">Descripcion</string>
+    <string name="price">Precio</string>
+    <string name="reg">Registrar</string>
+    <string name="delete">Eliminar</string>
+    <string name="update">Actualizar</string>
+    <string name="show">Consultar</string>
+</resources>
