@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Segundo__CRUD</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido_Paterno">Apellido paterno</string>
+    <string name="Apellido_Materno">Apellido materno</string>
+    <string name="ID">Id</string>
+</resources>
