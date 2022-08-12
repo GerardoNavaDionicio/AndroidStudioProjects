@@ -10,9 +10,12 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.zxing.integration.android.IntentIntegrator;
-import com.google.zxing.integration.android.IntentResult;
+//import com.google.zxing.integration.android.IntentIntegrator;
+//import com.google.zxing.integration.android.IntentResult;
 import com.google.*;
+
+
+
 // implements onClickListener for the onclick behaviour of button
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button scanBtn;

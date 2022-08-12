@@ -47,28 +47,28 @@ public class MainActivity extends AppCompatActivity {
         btnbuscar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                buscar("http://192.168.7.3/ambiencce2/select.php?id="+id.getText()+"");
+                buscar("http://192.168.64.157/ambiencce2/select.php?id="+id.getText()+"");
             }
         });
         btninsertar = (Button)findViewById(R.id.btnC);
         btninsertar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ejecutar( "http://192.168.7.3/ambiencce2/insertar.php");
+                ejecutar( "http://192.168.64.157/ambiencce2/insertar.php");
             }
         });
         btnactualizar = (Button)findViewById(R.id.btnact);
         btnactualizar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ejecutarservicio("http://192.168.7.3/ambiencce2/actualizar.php");
+                ejecutarservicio("http://192.168.64.157/ambiencce2/actualizar.php");
             }
         });
         btneliminar= (Button)findViewById(R.id.btneli);
         btneliminar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                eliminar("http://192.168.7.3/ambiencce2/eliminar.php");
+                eliminar("http://192.168.64.157/ambiencce2/eliminar.php");
             }
         });
 
