@@ -1,8 +1,0 @@
-<resources>
-
-    <string name="app_name">LectorQR</string>
-    <string name="qr_code">Código QR</string>
-    <string name="scanner">Scanner</string>
-    <string name="escanear">Escanear</string>
-
-</resources>

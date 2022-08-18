@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AppImagen</string>
+    <string name="t1">Nombre</string>
+    <string name="b1">Subir imagen</string>
+    <string name="b2">Elegir imagen</string>
+</resources>

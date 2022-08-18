@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/AppBiencce/app/src/main/res/drawable/btn_2.xml" value="0.165" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/AppBiencce/app/src/main/res/drawable/btn_style.xml" value="0.165" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/AppBiencce/app/src/main/res/drawable/edt_style.xml" value="0.19" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/AppBiencce/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/AppBiencce2/app/src/main/res/drawable/btn_2.xml" value="0.104" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/AppBiencce2/app/src/main/res/drawable/btn_style.xml" value="0.104" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/AppBiencce2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Genathink/AndroidStudioProjects/AppBiencce2/app/src/main/res/layout/activity_registrar_yessenia.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Genathink/Downloads/AppBiencce/AppBiencce/app/src/main/res/layout/activity_gestionar_empleados_admin.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Genathink/Downloads/AppBiencce/AppBiencce/app/src/main/res/layout/activity_gestionar_equipo.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Genathink/Downloads/AppBiencce/AppBiencce/app/src/main/res/layout/activity_gestionar_evento.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Genathink/Downloads/AppBiencce/AppBiencce/app/src/main/res/layout/activity_gestionar_mantenimiento.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Genathink/Downloads/AppBiencce/AppBiencce/app/src/main/res/layout/activity_gestionar_produccion.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Genathink/Downloads/AppBiencce/AppBiencce/app/src/main/res/layout/activity_gestionarfiesta.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Genathink/Downloads/AppBiencce/AppBiencce/app/src/main/res/layout/activity_main.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Genathink/Downloads/AppBiencce/AppBiencce/app/src/main/res/layout/activity_main2.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Genathink/Downloads/AppBiencce/AppBiencce/app/src/main/res/layout/activity_menu.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Genathink/Downloads/AppBiencce/AppBiencce/app/src/main/res/layout/activity_registrar.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Genathink/Downloads/AppBiencce/AppBiencce/app/src/main/res/layout/registrar_layout.xml" value="0.20102564102564102" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
