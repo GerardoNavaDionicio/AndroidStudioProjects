@@ -4,7 +4,7 @@ import android.content.Context;
 
 import java.util.List;
 
-public class productos {
+public class Productos {
 
 
     private int id;
@@ -12,7 +12,7 @@ public class productos {
     private String nombre;
     private String imagen;
 
-    public productos(int id,double precio, String nombre, String imagen)
+    public Productos(int id, double precio, String nombre, String imagen)
     {
         this.id=id;
         this.precio=precio;
