@@ -32,12 +32,17 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity {
     Button pb_cargar, pb_subir;
     EditText edt_nombre;
+
+
+
     ImageView img1;
+
     Bitmap bitmap;
     int PICK_IMAGE_REQUEST=1;
-    String UPLOAD_URL="http://92.168.67.82/image_app/insertar.php";
+    String UPLOAD_URL="http://192.168.7.5/image_app/insertar.php";
     String KEY_IMAGE = "foto";
-    String KEY_NOMBRE = "nombre";
+
+    //String KEY_NOMBRE = "nombre";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

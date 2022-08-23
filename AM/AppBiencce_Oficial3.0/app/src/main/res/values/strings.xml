@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">AppBiencce_Oficial</string>
+
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido_Paterno">Apellido paterno</string>
+    <string name="Apellido_Materno">Apellido materno</string>
+    <string name="ID">Id</string>
+
+
+    <string name="user">Nombre de Usuario</string>
+    <string name="cont">Contraseña</string>
+    <string name="in">Ingresar</string>
+    <string name="re">Registrar</string>
+
+
+    <string name="emple">Empleado</string>
+    <string name="equi">Equipo</string>
+    <string name="eve">Evento</string>
+    <string name="fiesta">Fiesta</string>
+    <string name="mant">Mantenimiento</string>
+    <string name="produ">Producción</string>
+
+
+    <string name="id_empleado">ID</string>
+    <string name="nombre_empleado">Nombre</string>
+    <string name="genero_empleado">Genero</string>
+    <string name="edad_empleado">Edad</string>
+    <string name="puesto_empleado">Puesto</string>
+
+    <string name="id_equipo">Puesto</string>
+    <string name="nombre_equipo">Puesto</string>
+    <string name="marca_equipo">Puesto</string>
+    <string name="descripcion_equipo">Puesto</string>
+    <string name="cantidad_equipo">Puesto</string>
+    <string name="disponiblididad_equipo">Puesto</string>
+
+
+</resources>
