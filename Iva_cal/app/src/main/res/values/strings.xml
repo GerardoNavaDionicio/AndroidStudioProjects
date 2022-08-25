@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Iva_cal</string>
+    <string name="n1">Cantidad</string>
+    <string name="calcu">calcular IVA</string>
+</resources>

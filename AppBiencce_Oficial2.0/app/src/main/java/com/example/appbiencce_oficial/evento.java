@@ -66,25 +66,25 @@ public class evento extends AppCompatActivity implements View.OnClickListener {
         pb_consultar_evento.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                buscar("http://192.168.67.82/cursomovil/selectEven.php?id_evento="+edt_evento_id.getText()+"");
+                buscar("http://192.168.7.5/cursomovil/selectEven.php?id_evento="+edt_evento_id.getText()+"");
             }
         });
         pb_registrar_evento.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                registrar( "http://192.168.67.82/cursomovil/insertarEven.php");
+                registrar( "http://192.168.7.5/cursomovil/insertarEven.php");
             }
         });
         pb_actualizar_evento.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                actu("http://192.168.67.82/cursomovil/actualizarEven.php");
+                actu("http://192.168.7.5/cursomovil/actualizarEven.php");
             }
         });
         pb_eliminar_evento.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                eliminar("http://192.168.67.82/cursomovil/eliminarEven.php");
+                eliminar("http://192.168.7.5/cursomovil/eliminarEven.php");
             }
         });
     }

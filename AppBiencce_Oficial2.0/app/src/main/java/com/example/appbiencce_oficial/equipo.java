@@ -76,25 +76,25 @@ public class equipo extends AppCompatActivity {
         pb_consultar_equipo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                buscar("http://192.168.67.82/cursomovil/selectEqui.php?id_equipo="+edt_equipo_id.getText()+"");
+                buscar("http://192.168.7.5/cursomovil/selectEqui.php?id_equipo="+edt_equipo_id.getText()+"");
             }
         });
         pb_registrar_equipo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                registrar( "http://192.168.67.82/cursomovil/insertarEqui2.php");
+                registrar( "http://192.168.7.5/cursomovil/insertarEqui2.php");
             }
         });
         pb_actualizar_equipo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                actu("http://192.168.67.82/cursomovil/actualizarEqui.php");
+                actu("http://192.168.7.5/cursomovil/actualizarEqui.php");
             }
         });
         pb_eliminar_equipo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                eliminar("http://192.168.67.82/cursomovil/eliminarEqui.php");
+                eliminar("http://192.168.7.5/cursomovil/eliminarEqui.php");
             }
         });
         pb_cargar_imagen_equipo.setOnClickListener(new View.OnClickListener() {

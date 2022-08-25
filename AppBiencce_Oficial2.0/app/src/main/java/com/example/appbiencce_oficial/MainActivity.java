@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         pb_ingresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                validadUsuario("http://192.168.67.82/cursomovil/validar.php");
+                validadUsuario("http://192.168.7.5/cursomovil/validar.php");
             }
         });
 

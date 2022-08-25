@@ -52,25 +52,25 @@ public class empleado extends AppCompatActivity {
         pb_consultar_empleado.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                buscar("http://192.168.67.82/cursomovil/selectEmp.php?id_empleado="+edt_empleado_id.getText()+"");
+                buscar("http://192.168.7.5/cursomovil/selectEmp.php?id_empleado="+edt_empleado_id.getText()+"");
             }
         });
         pb_registrar_empleado.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                registrar( "http://192.168.67.82/cursomovil/insertarEmp.php");
+                registrar( "http://192.168.7.5/cursomovil/insertarEmp.php");
             }
         });
         pb_actualizar_empleado.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                actu("http://192.168.67.82/cursomovil/actualizarEmp.php");
+                actu("http://192.168.7.5/cursomovil/actualizarEmp.php");
             }
         });
         pb_eliminar_empleado.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                eliminar("http://192.168.67.82/cursomovil/eliminarEmp.php");
+                eliminar("http://192.168.7.5/cursomovil/eliminarEmp.php");
             }
         });
     }
